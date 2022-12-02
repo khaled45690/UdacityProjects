@@ -4,16 +4,16 @@ plugins {
 }
 
 android {
-    namespace 'com.example.rollerdice'
-    compileSdk 32
+    namespace 'com.example.aboutme'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.rollerdice"
+        applicationId "com.example.aboutme"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
-        vectorDrawables.useSupportLibrary = true
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -32,6 +32,7 @@ android {
     }
     buildFeatures {
         viewBinding true
+        dataBinding true
     }
 }
 

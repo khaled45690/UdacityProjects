@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aboutme</string>
+    <string name="about_me">khaled saad abbass</string>
+    <string name="bio">this is my bio this is my bio
+    \n this is my bio this is my bio \n this is my bio
+    </string>
+    <string name="add_nick_name">add nick name</string>
+</resources>
